@@ -1,6 +1,8 @@
 package routers
 
 import (
+	"time"
+
 	"controllers"
 	"controllers/api"
 	"controllers/conf"
@@ -10,9 +12,9 @@ import (
 	"controllers/task"
 	"controllers/user"
 	"controllers/walle"
+
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/plugins/cors"
-	"time"
 )
 
 func init() {
@@ -26,11 +28,11 @@ func init() {
 		MaxAge:          5 * time.Minute,
 	}))
 
-	beego.Router("/login", &controllers.LoginController{})
-	beego.Router("/logout", &controllers.LogoutController{})
-	beego.Router("/loginbydocke", &controllers.LoginByDockerController{})
-	beego.Router("/changePasswd", &controllers.ChangePasswdController{})
-	beego.Router("/register", &controllers.RegisterController{})
+	beego.Router("/api/login", &controllers.LoginController{})
+	beego.Router("/api/logout", &controllers.LogoutController{})
+	beego.Router("/api/loginbydocke", &controllers.LoginByDockerController{})
+	beego.Router("/api/changePasswd", &controllers.ChangePasswdController{})
+	beego.Router("/api/register", &controllers.RegisterController{})
 
 	beego.Router("/api/get/walle/detection", &wallecontrollers.DetectionController{})
 	beego.Router("/api/get/walle/detectionssh", &wallecontrollers.DetectionsshController{})

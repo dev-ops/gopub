@@ -13,7 +13,7 @@ package-lock.json
 target
 src/gopub
 src/static
-src/views
+src/views/*
 *.pid
 *.log
 

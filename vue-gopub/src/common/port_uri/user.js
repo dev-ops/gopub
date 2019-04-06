@@ -12,13 +12,13 @@
 // 获取用户信息
 exports.info = '/api/get/user/info';
 // 用户登录
-exports.login = '/login';
+exports.login = '/api/login';
 // 用户登出
-exports.logout = '/logout';
+exports.logout = '/api/logout';
 // 修改用户密码
-exports.changepasswd = '/changePasswd';
+exports.changepasswd = '/api/changePasswd';
 // 用户注册
-exports.register = '/register';
+exports.register = '/api/register';
 
 exports.users = '/api/get/user';
 exports.usersProject = '/api/get/user/project';
