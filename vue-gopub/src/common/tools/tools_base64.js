@@ -8,24 +8,24 @@
  *
  */
 
-//存储前缀
-import {base64_prefix} from 'common/config'
+// 存储前缀
+import {base64Prefix} from 'common/config';
 
-import base64 from 'js-base64'
+import base64 from 'js-base64';
 
 export default new class Base64 {
   constructor() {
-    this.prefix = base64_prefix
-    this.base64 = base64.Base64
+    this.prefix = base64Prefix;
+    this.base64 = base64.Base64;
   }
 
-  //base64加密
+  // base64加密
   encode(val) {
-    return this.base64.encode(base64_prefix + val)
+    return this.base64.encode(base64Prefix + val);
   }
 
-  //base解密
+  // base解密
   decode(val) {
-    return this.base64.decode(base64_prefix + val)
+    return this.base64.decode(base64Prefix + val);
   }
-}
+}();

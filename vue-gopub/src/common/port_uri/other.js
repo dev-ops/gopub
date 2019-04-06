@@ -9,5 +9,5 @@
  *
  */
 
-//统计未进行预发布的项目
-exports.noauto = "/api/get/other/noauto"
+// 统计未进行预发布的项目
+exports.noauto = '/api/get/other/noauto';

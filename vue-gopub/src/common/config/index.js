@@ -7,10 +7,7 @@
  * @Copyright(©) 2017 by thinkive.
  *
  */
-
-//本地存储的前缀
-export const storage_prefix = 'gopub_'
-//base64加密前缀
-export const base64_prefix = 'gopub_base64_'
-
-
+// 本地存储的前缀
+export const storagePrefix = 'gopub_';
+// base64加密前缀
+export const base64Prefix = 'gopub_base64_';

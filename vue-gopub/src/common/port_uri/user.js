@@ -9,16 +9,16 @@
  *
  */
 
-//获取用户信息
-exports.info = "/api/get/user/info"
-//用户登录
-exports.login = "/login"
-//用户登出
-exports.logout = "/logout"
-//修改用户密码
-exports.changepasswd = "/changePasswd"
-    //用户注册
-exports.register = "/register"
+// 获取用户信息
+exports.info = '/api/get/user/info';
+// 用户登录
+exports.login = '/login';
+// 用户登出
+exports.logout = '/logout';
+// 修改用户密码
+exports.changepasswd = '/changePasswd';
+// 用户注册
+exports.register = '/register';
 
-exports.users = "/api/get/user"
-exports.usersProject = "/api/get/user/project"
+exports.users = '/api/get/user';
+exports.usersProject = '/api/get/user/project';

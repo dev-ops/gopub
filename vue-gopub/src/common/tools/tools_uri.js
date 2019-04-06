@@ -12,13 +12,13 @@ export default new class Uri {
   constructor() {
   }
 
-  //URI 解码
+  // URI 解码
   decode(value) {
-    return decodeURIComponent(value)
+    return decodeURIComponent(value);
   }
 
-  //URI 编码
+  // URI 编码
   encode(value) {
-    return encodeURIComponent(value)
+    return encodeURIComponent(value);
   }
-}
+}();

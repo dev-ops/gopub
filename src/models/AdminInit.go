@@ -3,11 +3,12 @@ package models
 import (
 	"database/sql"
 	"fmt"
+	"os"
+	"time"
+
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
-	"os"
-	"time"
 )
 
 var o orm.Ormer

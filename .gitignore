@@ -9,6 +9,14 @@
 *.userosscache
 *.sln.docstates
 
+package-lock.json
+target
+src/gopub
+src/static
+src/views
+*.pid
+*.log
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

@@ -9,9 +9,9 @@
  *
  */
 
-//获取用户信息
-exports.check = "/api/get/p2p/check"
-    //用户登录
-exports.send = "/api/get/p2p/send"
-    //用户登出
-exports.agent = "/api/post/p2p/agent"
+// 获取用户信息
+exports.check = '/api/get/p2p/check';
+// 用户登录
+exports.send = '/api/get/p2p/send';
+// 用户登出
+exports.agent = '/api/post/p2p/agent';

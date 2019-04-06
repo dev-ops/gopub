@@ -2,14 +2,15 @@ package controllers
 
 import (
 	"encoding/json"
-	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/orm"
-	"golang.org/x/crypto/bcrypt"
 	"library/common"
 	"models"
 	"regexp"
 	"strings"
 	"time"
+
+	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/orm"
+	"golang.org/x/crypto/bcrypt"
 )
 
 type RegisterController struct {

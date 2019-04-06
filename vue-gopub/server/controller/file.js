@@ -9,14 +9,14 @@
  *
  */
 
-var mock = require('../mock/file')
-var uri = require('../../src/common/port_uri').port_file
+let mock = require('../mock/file');
+let uri = require('../../src/common/port_uri').portFile;
 
-module.exports = function (apiRouter) {
-    //图片上传
-    apiRouter.post(uri.image_upload, function (req, res) {
-        setTimeout(function () {
-            res.json(mock.image_upload)
-        }, 1000)
-    })
-}
+module.exports = function(apiRouter) {
+  // 图片上传
+  apiRouter.post(uri.image_upload, function(req, res) {
+    setTimeout(function() {
+      res.json(mock.image_upload);
+    }, 1000);
+  });
+};
