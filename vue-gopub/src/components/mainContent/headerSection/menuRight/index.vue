@@ -3,7 +3,7 @@
     <div class="notification-menu">
       <el-dropdown trigger="click" class="notification-list">
         <div class="notification-btn">
-          <img :src="get_user_info.user.Avatar" :alt="get_user_info.user.Realname">
+          <img :src="get_user_info.user.Avatar" alt="">
           <span v-text="get_user_info.user.Realname"/>
           <span class="icon"/>
         </div>

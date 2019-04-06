@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent="submit_form">
+  <form @submit.prevent="submit_form" class="search-form">
     <el-input v-model="formValue" :placeholder="placeholder"/>
   </form>
 </template>

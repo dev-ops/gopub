@@ -104,6 +104,7 @@
                         v-model="form.Excludes"
                         type="textarea"
                         autosize
+                        :rows="10"
                         placeholder=".git
 README.md"
                       />

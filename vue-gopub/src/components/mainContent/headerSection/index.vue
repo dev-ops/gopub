@@ -1,7 +1,7 @@
 <template>
   <div class="header-section">
-    <search/>
     <menu-right/>
+    <search class="menu-search"/>
   </div>
 </template>
 <script type="text/javascript">

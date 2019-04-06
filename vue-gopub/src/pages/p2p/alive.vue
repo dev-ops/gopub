@@ -24,11 +24,11 @@
 
         <el-table-column prop="updated_at" label="上线时间" width="180"/>
         <el-table-column prop="branch" label="分支"/>
-        <el-table-column prop="commit_id" label="	上线commit号"/>
-        <el-table-column prop="pms_batch_id" label="	发布批次ID" width="60"/>
-        <el-table-column prop="pms_uwork_id" label="	uwork流程号" width="80"/>
-        <el-table-column prop="status" label="	当前状态" width="100"/>
-        <el-table-column label="操作" width="300">
+        <el-table-column prop="commit_id" label="commit ID"/>
+        <el-table-column prop="pms_batch_id" label="发布批次ID" width="60"/>
+        <el-table-column prop="pms_uwork_id" label="uwork流程号" width="80"/>
+        <el-table-column prop="status" label="当前状态" width="100"/>
+        <el-table-column label="操作" width="200">
           <template slot-scope="props">
             <router-link
               v-if="props.row.status!='新建提交'"

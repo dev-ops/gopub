@@ -20,12 +20,12 @@
         <el-table-column prop="email" label="邮箱"/>
         <el-table-column prop="username" label="用户名"/>
         <el-table-column prop="created_at" label="创建时间" width="180"/>
-        <el-table-column prop="role" label="	角色" width="100">
+        <el-table-column prop="role" label="角色" width="100">
           <template slot-scope="props">
             <span>{{ props.row.role | getRole }}</span>
           </template>
         </el-table-column>
-        <el-table-column label="操作" width="300">
+        <el-table-column label="操作" width="120">
           <template slot-scope="props">
             <router-link :to="{name: 'register', query: {id: props.row.id}}" tag="span">
               <el-button icon="edit">修改</el-button>

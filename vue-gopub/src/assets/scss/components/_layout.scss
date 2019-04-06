@@ -41,11 +41,14 @@
   position: relative;
   margin-left: 220px;
   padding-top: 50px;
+  .search-form .el-input__inner {
+    vertical-align: super;
+  }
   .header-section {
     position: fixed;
     top: 0;
     left: 220px;
-    width: 100%;
+    right: 0;
     height: 50px;
     background-color: #fff;
     border-bottom: 1px solid #eff0f4;
@@ -57,10 +60,15 @@
       height: 35px;
       font-size: 14px;
     }
+    .menu-search {
+      float: right;
+      margin-top: 10px;
+      margin-right: 15px;
+    }
     .menu-right {
       position: relative;
       float: right;
-      margin-right: 235px;
+      margin-right: 15px;
       text-align: right;
       font-size: 0;
       z-index: 999;
